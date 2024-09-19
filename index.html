@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP PATH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!--NavBar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><span class="fa-brands fa-instagram"></span> Instagram</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+      <!--Modal Button-->
+      <form class="d-flex">
+        <div class="container d-flex justify-content-end m-0 p-0">
+
+          <div class="container d-flex justify-content-end">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create new post
+            </button>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Caption:</p>
+                  <textarea class="form-control" placeholder="Add the caption of your post here" rows="10"></textarea>
+                <div class="modal-footer justify-content-start">
+                  <button type="button" class="btn btn-outline-dark"><span class="fa-solid fa-camera"></button>
+                    <button type="button" class="btn btn-outline-dark"><span class="fa-solid fa-location-dot"></button>
+                </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </form>
+
+<!--Dropdown-->
+
+      <div class="btn-group dropstart">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="fa-solid fa-gear"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+          <hr class="m-0">
+          <li><a class="dropdown-item text-danger text-star " href="#">Log out</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!--Nav tabs (Mosaico y Cards)-->
+
+<ul class="nav nav-tabs justify-content-center mb-5" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span class="fa-solid fa-table-cells"></span></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><span class="fa-solid fa-stop"></span></button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"> <!--Apertura Mosaico-->
+    <div class="row">
+      <!--///////////////////////////////Rafale///////////////////////////////-->
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://noticias.coches.com/wp-content/uploads/2023/06/Renault-Rafale-esprit-Alpine-2024-2.jpeg" alt="Renault Rafale"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://noticias.coches.com/wp-content/uploads/2023/06/Renault-Rafale-esprit-Alpine-2024-interior-3.jpeg" alt="Renault Rafale"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://noticias.coches.com/wp-content/uploads/2023/06/Renault-Rafale-esprit-Alpine-2024-interior-19.jpeg" alt="Renault Rafale"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://noticias.coches.com/wp-content/uploads/2023/06/Renault-Rafale-esprit-Alpine-2024-4.jpeg" alt="Renault Rafale"/>
+  </div>
+
+<!--///////////////////////////////Peugeot///////////////////////////////-->
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://cdn.motor1.com/images/mgl/P3gGNK/s1/nuevo-peugeot-e-3008-2024.webp" alt="Peugeot"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://www.coches.com/fotos_historicas/peugeot/3008/78499636eccd04ec07590c0a8293e8a0.jpg" alt="Peugeot"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://images.prismic.io/carwow/319c9547-3c95-4bfd-bac7-c7e46af3cd04_LHD+Peugeot+E-3008+2024+Interior-2.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=1920" alt="Peugeot"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://www.coches.com/fotos_historicas/peugeot/3008/6b329204fb9bd78636b3f159a5032cb8.jpg" alt="Peugeot"/>
+  </div>
+
+  <!--///////////////////////////////Citroen C4x///////////////////////////////-->
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://cdn.motor1.com/images/mgl/Oo0GgM/s1/jml-114.jpg" alt="Citroen"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://cdn.motor1.com/images/mgl/Oo0GgA/s1/jml-236.jpg" alt="Citroen"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://cdn.motor1.com/images/mgl/1ZK6Jq/s1/jml-245.jpg" alt="Citroen"/>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gx-0 p-2 m-0">
+    <img class="container-fluid p-0" src="https://cdn.motor1.com/images/mgl/1ZK6Jw/s1/jml-130.jpg" alt="Citroen"/>
+  </div>
+    </div>
+  </div> <!--Cierre Mosaico-->
+
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><!--Apertura Post-->
+
+    <!--Renault-->
+
+    <div class="container d-flex justify-content-center">
+        <div class="card mb-3" style="width: 35rem;">
+        <div class="card-header d-flex">
+          <h6 class="p-0 m-0">Renault</h6>
+          <h6 class="leyenda ms-auto">13/15</h6>
+        </div>
+        <img src="https://cdn.drivek.com/configurator-imgs/cars/es/800x0/RENAULT/RAFALE/43592_SUV-5-DOORS/renault-rafale-front-view.jpg" alt="Renault Rafale"/>
+        <div class="card-footer">
+          <div class="icons-footer d-flex">
+              <span class="fa-solid text-danger fa-heart fa-xl my-4 me-2"></span>
+              <span class="fa-regular fa-comment fa-xl my-4 me-2"></span>
+              <span class="fa-regular fa-paper-plane fa-xl my-4"></span>
+              <span class="fa-solid text-black fa-bookmark fa-xl my-4 ms-auto"></span>
+          </div>
+          <article class="description">
+            <p>
+              The Renault Rafale is a hybrid SUV coupe launched in 2023, featuring an aerodynamic and sporty design. Based on the CMF-CD platform, it offers a 1.2-liter hybrid engine, known for its efficiency. Its interior includes advanced technology, such as a modern infotainment system and driver assistance features, balancing dynamism and comfort.
+            </p>
+            <p class="hashtag text-primary">#RenaultFamily #RenaultInnovation #RenaultStyle</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+ 
+
+    <div class="container d-flex justify-content-center">
+      <div class="card mb-3" style="width: 35rem;">
+      <div class="card-header d-flex">
+        <h6 class="p-0 m-0">Peugeot</h6>
+        <h6 class="leyenda ms-auto">06/15</h6>
+      </div>
+      <img src="https://cdn.drivek.com/configurator-imgs/cars/es/Original/PEUGEOT/3008/43170_SUV-5-DOORS/peugeot-3008-front-view.jpg" alt="Peugeot 3008"/>
+      <div class="card-footer">
+        <div class="icons-footer d-flex">
+          <span class="fa-solid text-danger fa-heart fa-xl my-4 me-2"></span>
+          <span class="fa-regular fa-comment fa-xl my-4 me-2"></span>
+          <span class="fa-regular fa-paper-plane fa-xl my-4"></span>
+          <span class="fa-regular text-black fa-bookmark fa-xl my-4 ms-auto"></span>
+      </div>
+        <article class="description">
+          <p>
+            The Peugeot 3008 is a compact SUV known for its elegant design, advanced technologies, and efficient engine options, including hybrid versions. Since its launch, it has gained recognition for its modern interior, featuring the distinctive i-Cockpit, which offers an intuitive and immersive driving experience. Additionally, it combines versatility and comfort, making it a popular choice for both city driving and long trips.
+          </p>
+          <p class="hashtag text-primary">#PeugeotExperience #PeugeotPassion #PeugeotStyle</p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container d-flex justify-content-center">
+    <div class="card mb-3" style="width: 35rem;">
+    <div class="card-header d-flex">
+      <h6 class="p-0 m-0">Citroën</h6>
+      <h6 class="leyenda ms-auto">14/15</h6>
+    </div>
+    <img src="https://cdn.motor1.com/images/mgl/0eKQWp/s1/citroen-c3-aircross-2024.webp" alt="Citroën"/>
+    <div class="card-footer">
+      <div class="icons-footer d-flex">
+        <span class="fa-solid text-danger fa-heart fa-xl my-4 me-2"></span>
+        <span class="fa-regular fa-comment fa-xl my-4 me-2"></span>
+        <span class="fa-regular fa-paper-plane fa-xl my-4"></span>
+        <span class="fa-regular text-black fa-bookmark fa-xl my-4 ms-auto"></span>
+    </div>
+      <article class="description">
+        <p>
+          El Citroën C3 Aircross 2024 es un SUV compacto con diseño renovado, interior cómodo y tecnología avanzada. Ofrece motores eficientes, versiones híbridas ligeras y las últimas asistencias de seguridad, ideal para quienes buscan versatilidad y estilo en la ciudad.
+        </p>
+        <p class="hashtag text-primary">#SimplyCitroën #ComfortClass #InspiredByYou</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+  </div><!--Cierre principal Post-->
+</div><!--Cierre Tab Content-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
